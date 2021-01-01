@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css" />
 </head>
 <body>
+
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
@@ -22,17 +23,17 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <ul class="navbar-nav flex-grow-1">
+
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/BookList/Index">Book</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/BookList/Index">Book Library</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+    <div >  <img class="img-fluid w-100" style="height:50%" src="images/book.jfif" alt="Image not loaded" /></div>
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
